@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 32px;
+  background: #1f2937;
+  color: white;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+}
+
+.header p {
+  margin: 0;
+  color: #d1d5db;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.upload-section {
+  margin-bottom: 32px;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.upload-button:hover {
+  background: #1d4ed8;
+}
+
+.database-section,
+.tables-section {
+  margin-top: 24px;
+}
+
+.database-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.database-card span {
+  color: #666;
+  font-size: 14px;
+}
+
+.table-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.error {
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  border-radius: 8px;
+  color: #991b1b;
+}

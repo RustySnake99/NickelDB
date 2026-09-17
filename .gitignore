@@ -1,0 +1,53 @@
+# =========================
+# Node / React / Vite
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Python
+# =========================
+
+api/.venv/
+api/__pycache__/
+api/**/__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# Rust
+# =========================
+
+engine/target/
+
+# =========================
+# SQLite / local databases
+# =========================
+
+data/databases/*
+!data/databases/.gitkeep
+
+# SQLite temporary files
+*.db-shm
+*.db-wal
+*.db-journal
+
+# =========================
+# IDE / editors
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
